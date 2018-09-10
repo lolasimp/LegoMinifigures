@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoMiniFigures", "LegoMiniFigures\LegoMiniFigures.csproj", "{E699F244-3E5C-4249-9211-85BC3B4F852E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegoMinifigures", "LegoMiniFigures\LegoMinifigures.csproj", "{E699F244-3E5C-4249-9211-85BC3B4F852E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
