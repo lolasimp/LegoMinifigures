@@ -12,7 +12,13 @@ namespace LegoMinifigures.Legs
             HasPants = false;
         }
 
-      
+        public override void Walk()
+        {
+            if (Length > 18)
+                Console.Write($"The {MainColor} baby legs wobble-strutted around the playpen in {ShoeColor} shoes.");
+            else
+                Console.WriteLine($"The {MainColor} baby legs crawled around the playpen");
+        }
 
         public override void Kick(Minifigure minifigure)
         {
