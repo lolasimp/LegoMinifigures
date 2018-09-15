@@ -2,6 +2,7 @@
 using LegoMinifigures.Legs;
 using LegoMinifigures.Torsos;
 using System;
+using System.Collections.Generic;
 
 namespace LegoMinifigures
 {
@@ -37,6 +38,14 @@ namespace LegoMinifigures
 
             martin.TakeABreak();
             bestTeacher.TakeABreak();
+
+            var pastor = new Pastor();
+
+            var greeters = List<IGreeter> { pastor, martin, bestTeacher};
+            foreach (var greeter in greeters)
+            {
+                greeter.Greet();
+            }
 
             Console.ReadLine();
         }
